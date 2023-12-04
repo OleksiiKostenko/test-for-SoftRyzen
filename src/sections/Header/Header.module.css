@@ -1,0 +1,19 @@
+.header_container {
+  display: flex;
+  margin-top: 36px;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: var(--bg-color-burger);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+.btn_icon {
+  width: 16px;
+  height: 16px;
+}

@@ -1,0 +1,37 @@
+.container_wrapp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+  height: 210px;
+  margin-bottom: 36px;
+}
+.title {
+  text-align: center;
+}
+.container_wrapp::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  width: 50px;
+  border: 1px solid var(--accent-color);
+}
+.quantity {
+  color: var(--accent-color);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.value {
+  margin-left: 8px;
+  color: var(--dark-green-color);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}

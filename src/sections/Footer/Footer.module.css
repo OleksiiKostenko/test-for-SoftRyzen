@@ -1,0 +1,45 @@
+.container {
+  border-top: 1px solid var(--accent-color);
+  margin-top: 36px;
+  padding: 24px 0 24px 0;
+}
+.img_wrapp {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: var(--accent-color);
+  color: var(--dark-green-color);
+  fill: currentColor;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.icon_btn {
+  transform: rotate(-90deg);
+  width: 16px;
+  height: 16px;
+}
+.list {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  margin: 24px 8px 24px 0;
+}
+.item:last-child {
+  margin-right: 0;
+}
+.social_icon {
+  width: 24px;
+  height: 24px;
+  color: var(--dark-green-color);
+  fill: currentColor;
+}

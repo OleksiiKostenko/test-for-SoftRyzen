@@ -1,0 +1,40 @@
+.contact_list {
+  margin-top: 24px;
+}
+.list_item {
+  margin-bottom: 24px;
+}
+.list_item:last-child {
+  margin-bottom: 36px;
+}
+.list_title {
+  margin-bottom: 8px;
+}
+.item_link {
+  color: var(--dark-green-color);
+  display: flex;
+  align-items: center;
+}
+.link_icon {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  margin-right: 8px;
+}
+.first_numb {
+  margin-bottom: 12px;
+}
+.social_icon_wrapp {
+  display: flex;
+  padding: 0 12px;
+}
+.social_icon {
+  margin-right: 0;
+}
+.social_icon_link {
+  padding: 12px;
+  margin-right: 8px;
+}
+.social_icon_link:last-child {
+  margin-right: 0;
+}

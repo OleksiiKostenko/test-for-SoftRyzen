@@ -1,0 +1,87 @@
+.btn {
+  background-color: transparent;
+  color: var(--dark-green-color);
+  fill: currentColor;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--dark-green-color);
+}
+.btn:first-child {
+  margin-right: 12px;
+}
+.icon_btn_left {
+  transform: rotate(180deg);
+  width: 32px;
+  height: 32px;
+}
+.icon_btn_right {
+  width: 32px;
+  height: 32px;
+}
+.num_wrapp {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin: 24px 0;
+}
+.num {
+  color: var(--secont-numb-color);
+  font-size: 28px;
+  font-weight: 300;
+}
+.btn_wrapp {
+  display: flex;
+}
+.card_img {
+  margin-bottom: 24px;
+}
+.active_num {
+  color: var(--dark-green-color);
+}
+.list_item {
+  margin-bottom: 36px;
+  background-color: var(--bg-card-color);
+}
+.card_btn {
+  background-color: var(--accent-color);
+  color: var(--dark-green-color);
+  fill: currentColor;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.icon_card_btn {
+  transform: rotate(-45deg);
+  height: 32px;
+}
+.title_wrapp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 12px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--accent-color);
+}
+.card_title {
+  text-align: justify;
+  font-size: 18px;
+  letter-spacing: -0.72px;
+  margin-right: 60px;
+}
+.desc_wrapp {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.card_desc {
+  font-size: 12px;
+  letter-spacing: -0.48px;
+}
