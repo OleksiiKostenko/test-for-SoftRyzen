@@ -89,7 +89,7 @@
   width: 270px;
 }
 .img:hover {
-  content: url("image/logo_hover.png");
+  content: url("./public/image/logo_hover.png");
 }
 .list {
   display: flex;
