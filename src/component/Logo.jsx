@@ -4,7 +4,7 @@ function Logo() {
   return (
     <img
       className={css.img}
-      src="src/assets/image/logo.png"
+      src="assets/image/logo.png"
       alt="Логотип Компанії Ecosolution"
     />
   );
