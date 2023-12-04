@@ -7,7 +7,7 @@ function HeaderBtn({ children }) {
       {children}
       <div className={css.contact_arrow_wrapp}>
         <svg className={css.contact_icon_btn}>
-          <use href="./public/svg/icons.svg#icon-arrow-right"></use>
+          <use href="src/assets/svg/icons.svg#icon-arrow-right"></use>
         </svg>
       </div>
     </button>

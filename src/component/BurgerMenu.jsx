@@ -15,7 +15,7 @@ function BurgerMenu({ toggleModal }) {
         <div className={css.modal_btn_wrapp}>
           <button className={css.close_btn} type="button" onClick={toggleModal}>
             <svg className={css.close_icon}>
-              <use href="./public/svg/icons.svg#icon-close"></use>
+              <use href="src/assets/svg/icons.svg#icon-close"></use>
             </svg>
             close
           </button>
