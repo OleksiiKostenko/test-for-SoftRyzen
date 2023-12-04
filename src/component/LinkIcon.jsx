@@ -11,7 +11,7 @@ function LinkIcon({ color }) {
           rel="noopener noreferrer nofollow"
         >
           <svg className={css.social_icon}>
-            <use href="src/assets/svg/icons.svg#icon-facebook"></use>
+            <use href="svg/icons.svg#icon-facebook"></use>
           </svg>
         </a>
       </li>
@@ -23,7 +23,7 @@ function LinkIcon({ color }) {
           rel="noopener noreferrer nofollow"
         >
           <svg className={css.social_icon}>
-            <use href="src/assets/svg/icons.svg#icon-instagram"></use>
+            <use href="svg/icons.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>

@@ -15,7 +15,7 @@ function Footer() {
           <Logo />
           <button type="button" className={css.btn}>
             <svg className={css.icon_btn}>
-              <use href="src/assets/svg/icons.svg#icon-arrow-right"></use>
+              <use href="svg/icons.svg#icon-arrow-right"></use>
             </svg>
           </button>
         </div>

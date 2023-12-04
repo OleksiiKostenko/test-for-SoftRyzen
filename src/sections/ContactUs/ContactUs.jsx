@@ -17,13 +17,13 @@ function ContactUs() {
                   href="tel:+380981234567"
                 >
                   <svg className={css.link_icon}>
-                    <use href="src/assets/svg/icons.svg#icon-call"></use>
+                    <use href="svg/icons.svg#icon-call"></use>
                   </svg>
                   38 (098) 12 34 567
                 </a>
                 <a className={css.item_link} href="tel:+380931234567">
                   <svg className={css.link_icon}>
-                    <use href="src/assets/svg/icons.svg#icon-call"></use>
+                    <use href="svg/icons.svg#icon-call"></use>
                   </svg>
                   38 (093) 12 34 567
                 </a>
@@ -33,7 +33,7 @@ function ContactUs() {
               <p className={css.list_title}>E-mail:</p>
               <a className={css.item_link} href="mailto:office@ecosolution.com">
                 <svg className={css.link_icon}>
-                  <use href="src/assets/svg/icons.svg#icon-sms"></use>
+                  <use href="svg/icons.svg#icon-sms"></use>
                 </svg>
                 office@ecosolution.com
               </a>
@@ -47,7 +47,7 @@ function ContactUs() {
                 rel="noopener noreferrer nofollow"
               >
                 <svg className={css.link_icon}>
-                  <use href="src/assets/svg/icons.svg#icon-map"></use>
+                  <use href="svg/icons.svg#icon-map"></use>
                 </svg>
                 79005, Ukraine, Lvivstreet. Shota Rustaveli, 7
               </a>
@@ -62,7 +62,7 @@ function ContactUs() {
                   rel="noopener noreferrer nofollow"
                 >
                   <svg className={`${css.link_icon} ${css.social_icon}`}>
-                    <use href="src/assets/svg/icons.svg#icon-facebook"></use>
+                    <use href="svg/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
                 <a
@@ -72,7 +72,7 @@ function ContactUs() {
                   rel="noopener noreferrer nofollow"
                 >
                   <svg className={`${css.link_icon} ${css.social_icon}`}>
-                    <use href="src/assets/svg/icons.svg#icon-instagram"></use>
+                    <use href="svg/icons.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </div>

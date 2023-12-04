@@ -17,12 +17,12 @@ function Cases() {
             <div className={css.btn_wrapp}>
               <button type="button" className={css.btn}>
                 <svg className={css.icon_btn_left}>
-                  <use href="src/assets/svg/icons.svg#icon-arrow-right"></use>
+                  <use href="svg/icons.svg#icon-arrow-right"></use>
                 </svg>
               </button>
               <button type="button" className={css.btn}>
                 <svg className={css.icon_btn_right}>
-                  <use href="src/assets/svg/icons.svg#icon-arrow-right"></use>
+                  <use href="svg/icons.svg#icon-arrow-right"></use>
                 </svg>
               </button>
             </div>
@@ -36,7 +36,7 @@ function Cases() {
                 <p className={css.card_title}>{card.title}</p>
                 <button type="button" className={css.card_btn}>
                   <svg className={css.icon_card_btn}>
-                    <use href="src/assets/svg/icons.svg#icon-arrow-right"></use>
+                    <use href="svg/icons.svg#icon-arrow-right"></use>
                   </svg>
                 </button>
               </div>

@@ -7,7 +7,7 @@ function Button({ children, type }) {
       {children}
       <div className={css.arrow_wrapp}>
         <svg className={css.icon_btn}>
-          <use href="src/assets/svg/icons.svg#icon-arrow-right"></use>
+          <use href="svg/icons.svg#icon-arrow-right"></use>
         </svg>
       </div>
     </button>

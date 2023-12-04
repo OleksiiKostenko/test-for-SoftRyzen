@@ -38,7 +38,7 @@ function Header({ viewportWidts }) {
         <div className={css.btn_wrapp}>
           <button className={css.btn} type="button" onClick={toggleModal}>
             <svg className={css.btn_icon}>
-              <use href="src/assets/svg/icons.svg#icon-menu"></use>
+              <use href="svg/icons.svg#icon-menu"></use>
             </svg>
             {isShowModal && <BurgerMenu toggleModal={toggleModal}></BurgerMenu>}
           </button>

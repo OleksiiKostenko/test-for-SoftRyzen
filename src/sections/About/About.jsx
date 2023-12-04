@@ -8,7 +8,7 @@ function About({ viewportWidts }) {
       <div>
         <img
           className={css.img}
-          src="src/assets/image/wind_turbine.png"
+          src="image/wind_turbine.png"
           alt="Wind turbine"
         />
         <div className={css.text_wrapp}>
@@ -29,7 +29,7 @@ function About({ viewportWidts }) {
           <li className={css.list_item}>
             <h3 className={css.card_title}>
               <svg className={css.card_icon}>
-                <use href="src/assets/svg/icons.svg#icon-maximize-circle"></use>
+                <use href="svg/icons.svg#icon-maximize-circle"></use>
               </svg>
               Openness
             </h3>
@@ -40,7 +40,7 @@ function About({ viewportWidts }) {
           <li className={css.list_item}>
             <h3 className={css.card_title}>
               <svg className={css.card_icon}>
-                <use href="src/assets/svg/icons.svg#icon-global-edit"></use>
+                <use href="svg/icons.svg#icon-global-edit"></use>
               </svg>
               Responsibility
             </h3>
@@ -54,14 +54,14 @@ function About({ viewportWidts }) {
               <li className={css.list_item}>
                 <img
                   className={css.second_img}
-                  src="src/assets/image/worker_with_sun_panels.png"
+                  src="image/worker_with_sun_panels.png"
                   alt="Worker with sun panels"
                 />
               </li>
               <li className={css.list_item}>
                 <img
                   className={css.second_img}
-                  src="src/assets/image/workers.png"
+                  src="image/workers.png"
                   alt="Workers"
                 />
               </li>
@@ -72,7 +72,7 @@ function About({ viewportWidts }) {
           <li className={css.list_item}>
             <h3 className={css.card_title}>
               <svg className={css.card_icon}>
-                <use href="src/assets/svg/icons.svg#icon-cpu-charge"></use>
+                <use href="svg/icons.svg#icon-cpu-charge"></use>
               </svg>
               Innovation
             </h3>
@@ -83,7 +83,7 @@ function About({ viewportWidts }) {
           <li className={css.list_item}>
             <h3 className={css.card_title}>
               <svg className={css.card_icon}>
-                <use href="src/assets/svg/icons.svg#icon-ranking"></use>
+                <use href="svg/icons.svg#icon-ranking"></use>
               </svg>
               Quality
             </h3>
