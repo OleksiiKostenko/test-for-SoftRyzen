@@ -13,8 +13,13 @@
 .btn:first-child {
   margin-right: 12px;
 }
+.btn:hover {
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
 .icon_btn_left {
   transform: rotate(180deg);
+  z-index: -1;
   width: 32px;
   height: 32px;
 }
@@ -58,8 +63,13 @@
   align-items: center;
   border: none;
 }
+.card_btn:hover {
+  background-color: var(--dark-green-color);
+  color: var(--accent-color);
+}
 .icon_card_btn {
   transform: rotate(-45deg);
+  display: block;
   height: 32px;
 }
 .title_wrapp {
@@ -84,4 +94,27 @@
 .card_desc {
   font-size: 12px;
   letter-spacing: -0.48px;
+}
+@media (min-width: 768px) {
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .list_item {
+    width: 340px;
+  }
+  .block_wrapp {
+    display: flex;
+    justify-content: space-between;
+  }
+  .num_wrapp {
+    margin: 0;
+    margin-bottom: 40px;
+    border-left: 1px solid var(--accent-color);
+    padding-left: 10px;
+  }
+  .num {
+    width: 200px;
+  }
 }

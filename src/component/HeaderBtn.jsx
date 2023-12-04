@@ -1,12 +1,12 @@
 import css from "./Components.module.css";
 import PropTypes from "prop-types";
 
-function Button({ children, type }) {
+function HeaderBtn({ children }) {
   return (
-    <button className={css.btn} type={type}>
+    <button className={css.contact_btn} type="button">
       {children}
-      <div className={css.arrow_wrapp}>
-        <svg className={css.icon_btn}>
+      <div className={css.contact_arrow_wrapp}>
+        <svg className={css.contact_icon_btn}>
           <use href="./public/svg/icons.svg#icon-arrow-right"></use>
         </svg>
       </div>
@@ -14,8 +14,8 @@ function Button({ children, type }) {
   );
 }
 
-Button.propTypes = {
+HeaderBtn.propTypes = {
   children: PropTypes.string.isRequired,
-  type: PropTypes.string.isRequired,
 };
-export default Button;
+
+export default HeaderBtn;

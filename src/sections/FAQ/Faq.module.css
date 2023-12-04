@@ -34,30 +34,3 @@
   letter-spacing: -0.72px;
   margin: 36px 0 12px 0;
 }
-
-.contact_btn {
-  background-color: var(--accent-color);
-  border: none;
-  border-radius: 500px;
-  width: 130px;
-  height: 40px;
-  padding: 10px 16px;
-  margin-bottom: 36px;
-}
-.btn_text {
-  font-size: 16px;
-  letter-spacing: -0.64px;
-  color: var(--dark-green-color);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.btn_text::after {
-  content: "";
-  display: block;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: var(--dark-green-color);
-}

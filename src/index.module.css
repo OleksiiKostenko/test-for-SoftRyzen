@@ -13,17 +13,23 @@
   --bg-card-color: #eaedf1;
   --error-field-color: #d28b8b;
   --bg-color-burger: #dcefd8;
+  --modal-text-color: #fff;
   --secont-numb-color: rgba(23, 61, 51, 0.25);
+  --backdrop-bgc: rgba(23, 61, 51, 0.25);
+  --modal-bgc: rgba(23, 61, 51, 0.75);
+  --modal-disb-color: rgba(255, 255, 255, 0.25);
 }
 
 body {
-  padding-left: 20px;
-  padding-right: 20px;
   margin: 0;
   font-family: "Fira Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+section {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 html {
@@ -83,8 +89,18 @@ button {
   text-transform: uppercase;
 }
 
-.paragr {
-  margin-top: 24px;
-  text-align: justify;
-  font-size: 16px;
+@media (min-width: 768px) {
+  .title {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .section_title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }

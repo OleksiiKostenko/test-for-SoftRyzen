@@ -1,7 +1,7 @@
 .container {
   border-top: 1px solid var(--accent-color);
   margin-top: 36px;
-  padding: 24px 0 24px 0;
+  padding: 24px 20px 24px 20px;
 }
 .img_wrapp {
   display: flex;
@@ -22,24 +22,12 @@
   align-items: center;
   border: none;
 }
+.btn:hover {
+  background-color: var(--dark-green-color);
+  color: var(--accent-color);
+}
 .icon_btn {
   transform: rotate(-90deg);
   width: 16px;
   height: 16px;
-}
-.list {
-  display: flex;
-  justify-content: center;
-}
-.item {
-  margin: 24px 8px 24px 0;
-}
-.item:last-child {
-  margin-right: 0;
-}
-.social_icon {
-  width: 24px;
-  height: 24px;
-  color: var(--dark-green-color);
-  fill: currentColor;
 }

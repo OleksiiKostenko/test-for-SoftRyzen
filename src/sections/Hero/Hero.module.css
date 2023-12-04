@@ -11,3 +11,27 @@
   justify-content: center;
   margin: 24px 0;
 }
+.paragr {
+  margin-top: 24px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .section {
+    margin-top: 200px;
+  }
+  .hero_wrapp {
+    display: flex;
+  }
+  .text_wrapp {
+    margin-left: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .paragr {
+    margin-top: 0;
+  }
+}
